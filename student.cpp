@@ -1,8 +1,6 @@
 #include <iostream>
 #include "student.h"
 
-using namespace MrChoke;
-
 // Constructor
 Student::Student(/* args */)
 {
@@ -21,7 +19,7 @@ Student::~Student()
 }
 
 // Getters
-uint16_t Student::StudentId() {
+string Student::StudentId() {
     return v_StudentId;
 }
 
@@ -37,7 +35,7 @@ string Student::Email() {
     return v_Email;
 }
 
-uint8_t Student::Age() {
+int Student::Age() {
     return v_Age;
 }
 
@@ -70,7 +68,7 @@ void Student::SetAge(uint8_t age) {
     v_Age = age;
 }
 
-void Student::SetDaysToComplete(array<uint8_t, 3> daysToComplete) {
+void Student::SetDaysToComplete(array<int, 3> daysToComplete) {
     v_DaysToComplete = daysToComplete;
 }
 
