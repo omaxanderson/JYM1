@@ -1,5 +1,6 @@
 #include <string>
 #include <array>
+#include "degree.h"
 
 using namespace std;
 
@@ -11,4 +12,5 @@ public:
     void printAll();
     void printAverageDaysInCourse(string studentID);
     void printInvalidEmails();
+    void printByDegreeProgram(DegreeProgram degreeProgram);
 }
