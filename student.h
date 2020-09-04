@@ -7,7 +7,7 @@ class Student
 {
 private:
     /* data */
-    string studentID;
+    int studentID;
     string firstName;
     string lastName;
     string emailAddress;
@@ -20,7 +20,7 @@ public:
     ~Student();
 
     // Getters
-    string getStudentID();
+    int getStudentID();
     string FirstName();
     string LastName();
     string getEmailAddress();
@@ -29,7 +29,7 @@ public:
     string Degree();
 
     // Setters
-    void setStudentId(string id);
+    void setStudentId(int id);
     void setFirstName(string firstName);
     void setLastName(string lastName);
     void setEmail(string email);

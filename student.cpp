@@ -5,7 +5,9 @@
 Student::Student(/* args */)
 {
     age = 30;
-    daysToComplete = {0, 1, 3};
+    daysToComplete[0] = 0;
+    daysToComplete[1] = 1;
+    daysToComplete[2] = 3;
     emailAddress = "bad@bad.com";
     firstName = "Mr";
     lastName = "Choke";
@@ -19,7 +21,7 @@ Student::~Student()
 }
 
 // Getters
-string Student::getStudentID() {
+int Student::getStudentID() {
     return studentID;
 }
 
@@ -48,7 +50,7 @@ string Student::Degree() {
 }
 
 // Setters
-void Student::setStudentId(string id) {
+void Student::setStudentId(int id) {
     studentID = id;
 }
 
