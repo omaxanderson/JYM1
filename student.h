@@ -20,7 +20,7 @@ public:
     ~Student();
 
     // Getters
-    int StudentId();
+    string StudentId();
     string FirstName();
     string LastName();
     string Email();
@@ -29,7 +29,7 @@ public:
     string Degree();
 
     // Setters
-    void SetStudentId(int id);
+    void SetStudentId(string id);
     void SetFirstName(string firstName);
     void SetLastName(string lastName);
     void SetEmail(string email);
