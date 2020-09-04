@@ -9,7 +9,7 @@ Student::Student(/* args */)
     emailAddress = "bad@bad.com";
     firstName = "Mr";
     lastName = "Choke";
-    studentID = 42069;
+    studentID = "42069";
     degreeProgram = "CS";
 }
 
