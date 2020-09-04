@@ -7,36 +7,36 @@ class Student
 {
 private:
     /* data */
-    string v_StudentId;
-    string v_FirstName;
-    string v_LastName;
-    string v_Email;
-    int v_Age;
-    array<int, 3> v_DaysToComplete;
-    string v_Degree;
+    string studentID;
+    string firstName;
+    string lastName;
+    string emailAddress;
+    int age;
+    array<int, 3> daysToComplete;
+    string degreeProgram;
 
 public:
     Student(/* args */);
     ~Student();
 
     // Getters
-    string StudentId();
+    string getStudentID();
     string FirstName();
     string LastName();
-    string Email();
+    string getEmailAddress();
     int Age();
-    array<int, 3> DaysToComplete();
+    array<int, 3> getDaysToComplete();
     string Degree();
 
     // Setters
-    void SetStudentId(string id);
-    void SetFirstName(string firstName);
-    void SetLastName(string lastName);
-    void SetEmail(string email);
-    void SetAge(int age);
+    void setStudentId(string id);
+    void setFirstName(string firstName);
+    void setLastName(string lastName);
+    void setEmail(string email);
+    void setAge(int age);
     void SetDaysToComplete(array<int, 3> daysToComplete);
-    void SetDegree(string degree);
+    void setDegree(string degree);
 
-    // Print
-    void Print();
+    // print
+    void print();
 };
